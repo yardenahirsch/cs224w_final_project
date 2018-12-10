@@ -218,12 +218,12 @@ def testUndirectedGraph():
 
 
 def main():
-	#g = createUndirectedWeightedGraph(dir_w_graph)
-	#getStats()
-	#plotDegreeDist(undir_unw_graph)
-	#linkPrediction(1000)
-	#getMotifs()
-	#communityDetection(g)
+	g = createUndirectedWeightedGraph(dir_w_graph)
+	getStats()
+	plotDegreeDist(undir_unw_graph)
+	linkPrediction(1000)
+	getMotifs()
+	communityDetection(g)
 	plotRemoveWeakStrongTies()
 	
 
